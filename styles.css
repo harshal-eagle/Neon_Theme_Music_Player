@@ -1,0 +1,79 @@
+body {
+    font-family: Poppins;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+
+.container {
+    letter-spacing:0.5px;
+    display: flex;
+    filter: blur(0.7px);
+    background: rgba(0, 0, 0, 0.451);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.319);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+.left_side {
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.left_side img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.Partition {
+    color: #ffffff;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#fileInput {
+    margin-bottom: 20px;
+}
+
+#musicList {
+    list-style: none;
+    padding: 0;
+}
+
+#musicList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button {
+    background: #ff7e5f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #feb47b;
+}
